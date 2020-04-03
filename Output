@@ -1,3 +1,4 @@
+race1.c
 $ ./a.out
 The parent peocess : 0
 The child peocess : 0
@@ -5,3 +6,13 @@ The parent peocess : 1
 The child peocess : 1
 The parent peocess : 2
 The child peocess : 2
+
+__________________________
+race2.c
+./a.out
+this is parent process
+this is child process
+this is parent process
+this is child process
+this is parent process
+this is child process
